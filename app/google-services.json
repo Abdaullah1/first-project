@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "738089805873",
+    "project_id": "experiences-for-firebase",
+    "storage_bucket": "experiences-for-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738089805873:android:f859596080b01631250d10",
+        "android_client_info": {
+          "package_name": "com.example.experiencesforfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxFpM_JNHzUzrJm-m4RS7iavLpuKCEOhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
