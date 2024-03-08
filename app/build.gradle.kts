@@ -1,8 +1,13 @@
+//import org.jetbrains.kotlin.kapt3.base.Kapt.kapt
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     //id("com.android.application")
     id("com.google.gms.google-services")
+    // authentication
+    id("kotlin-kapt")
+    //id("dagger.hilt.android.plugin")
 }
 
 android {
@@ -70,8 +75,19 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
 
-    // libraries of firebase
+    // libraries of firebase basic
     implementation(platform("com.google.firebase:firebase-bom:32.7.3"))
+    //analytics for firebase
     implementation("com.google.firebase:firebase-analytics")
+    //authentication for firebase
+    implementation("com.google.firebase:firebase-auth-ktx")
+
+    // authntiction for firebase
+    /*implementation("com.google.dagger:hilt-android:2.4")
+    kapt ("com.google.dagger:hilt-android-compiler:2.44")
+    kapt ("androidx.hilt:hilt-compiler:1.0.0")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+
+     */
 
 }
