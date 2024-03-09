@@ -78,7 +78,7 @@ fun logButom() {
      */
 
 
-
+/*
     Box(
 
 
@@ -175,7 +175,9 @@ fun logButom() {
         }
 
     }
-
+    
+ */
+Text(text = "igh")
 
 
 }
